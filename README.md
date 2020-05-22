@@ -6,7 +6,7 @@ Homebrew Tap for Eluvio
 ## Installation
 
 ```
-brew tap elv-preethi/eluv-io
+brew tap eluv-io/eluv-io
 ```
 
 ### Contnet fabric client
