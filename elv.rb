@@ -6,10 +6,10 @@ class Elv < Formula
     version "0.2.0"
   
     bottle do
-        root_url "https://github.com/eluv-io/homebrew-eluv-io/releases/download/0.2.0"
-        sha256 "aca0e3aa0168ad95e8f2eac1ae04010880c101d6ef5ed8032993ed005e0fdd88" => :catalina
-        sha256 "79086c20ee2c37e826bdf0010577c2da263e689d7c6090a5f1d175b8b3e0b94c" => :mojave
-        sha256 "f0ee643078a5d466e09a789d745451472c009411cca5bfbb4abd2f94c47f6c32" => :high_sierra
+        root_url "https://github.com/eluv-io/homebrew-eluv-io/releases/download/#{version}"
+        sha256 "81d9ae0d1926ade7d3168d0fdac2cf196ce311cc815060ed51502bafdcce95f5" => :catalina
+        sha256 "18f98e29a82058f068fbf42a7c30d98654eea39d10961bd014379df8b15c7233" => :mojave
+        sha256 "93d7aab23ec8dce490d2368a645cd64fee0614bb4a1589e64af2502c311aa5c3" => :high_sierra
     end
     
     def install
