@@ -2,8 +2,8 @@ class Elv < Formula
     
     desc "eluvio content fabric client"
     homepage "https://eluv.io"
-    url "https://github.com/eluv-io/homebrew-eluv-io/archive/0.2.0.zip"
     version "0.2.0"
+    url "https://github.com/eluv-io/homebrew-eluv-io/archive/#{version}.zip"
   
     bottle do
         root_url "https://github.com/eluv-io/homebrew-eluv-io/releases/download/#{version}"
