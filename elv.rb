@@ -2,15 +2,15 @@ class Elv < Formula
     
     desc "eluvio content fabric client"
     homepage "https://eluv.io"
-    VERSION = "0.2.6"
+    VERSION = "0.2.7"
     url "https://github.com/eluv-io/homebrew-eluv-io/archive/#{VERSION}.zip"
-  
+    
     bottle do
         root_url "https://github.com/eluv-io/homebrew-eluv-io/releases/download/#{VERSION}"
-        sha256 "803efaefc4575557edd931258b2ed6caba4d4e407f131570c907b9d679de3d2f" => :big_sur
-        sha256 "803efaefc4575557edd931258b2ed6caba4d4e407f131570c907b9d679de3d2f" => :catalina
-        sha256 "560d486b44858a516cc2f51de68df692d7d1afc9c37eba45eaf0e4776a56d86c" => :mojave
-        sha256 "fc3c1f7c30d4a7f1dcacf82ffb437f2aba3d2f26ea4277caf82d85af4efb5e84" => :high_sierra
+        sha256 "a0a1fbbb2f0f4bea56b284b5d3268b1f7313a0769bbaef7738c4398889557a8e" => :big_sur
+        sha256 "2698bdf38c9f6d6b90de76f37ac3d6585abbc5d7f261bd76440814fec87fda3b" => :catalina
+        sha256 "c2d1f5aaeb5fe2f4456984c91a1d7f17e73064c6e6f9e87cb84b2ef837e06140" => :mojave
+        sha256 "50b040f2199ef0b641fae6799976cb525df724be60ec30b6303c5c363026b8e9" => :high_sierra
     end
     
     def install
