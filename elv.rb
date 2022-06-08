@@ -7,9 +7,9 @@ class Elv < Formula
     
     bottle do
         root_url "https://github.com/eluv-io/homebrew-eluv-io/releases/download/#{VERSION}"
-        sha256 big_sur:     "62825cb4f028c41923cf56eaae010f2c495179ed8edc3eea0405657a65bb05c7"
-        sha256 monterey:    "b674d1acd4a3c73ff8fd33e4a65c3417393b04e559fa789691b50f138f351959"
-        sha256 arm64_big_sur: "91f458abbe7df7ca1b9fa6cd53fe5bbe975d8c18491ff44334813746e6ab1a1f"
+        sha256 big_sur:     "60eadd836aa5843835e8c851e60857078e891c642717ad85fd134c1e40f42643"
+        sha256 monterey:    "de0e322959d5ae376a3c9edcf1de20dc7e2e18b2970e082be2661179513867a9"
+        sha256 arm64_big_sur: "44646e38a1df92fb73ca53cbaeb44348f54affa307f1208b6128ca4b1e2961e6"
     end
     
     def install
