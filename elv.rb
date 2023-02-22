@@ -10,7 +10,7 @@ class Elv < Formula
         sha256 big_sur:     "82f10c9ef3a038943cd38d14e86788f8348d1cee9a68a6b273bf24212680a88d"
         sha256 monterey:    "4ce639ad5916ccb3616bb9a649973e78acef2f39cea8326cd0a120917737a72a"
         sha256 ventura:     "456e4e2d3fc1832f3972b7def07c297c0f4d72215e66411afcfd0aae9d654a4c"
-        sha256 arm64_big_sur: "5a4f9b5eb51fa0d55399010aca83908e9d1afcba448e6e724aaefc75bb41d8b4"
+        sha256 arm64_big_sur: "3114ab7b6b681642182b6f4201b8bd58534c92db43a7844d9f3cfee5c4eb2103"
     end
     
     def install
